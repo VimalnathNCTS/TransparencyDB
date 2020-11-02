@@ -1,4 +1,4 @@
-package com.BEISTransparencyDB.ui.stepdefinition.UI.Admin.Portal;
+package com.BEISTransparencyDB.ui.stepdefinition.AdminPortal;
 
 import com.BEISTransparencyDB.pagefactory.UIAdminPortal.Userinfo;
 import cucumber.api.java.en.And;

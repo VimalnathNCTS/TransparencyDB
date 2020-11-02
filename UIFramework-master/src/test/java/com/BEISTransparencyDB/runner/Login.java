@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         features = {"src/test/resources/UI_Admin_Portal/Login.feature"}
-        ,glue= "com/BEISTransparencyDB/ui/stepdefinition/UI/Admin/Portal/"
+        ,glue= "com/BEISTransparencyDB/ui/stepdefinition/AdminPortal/"
 
 )
 public class Login  extends BrowserStackSerenityTest {
