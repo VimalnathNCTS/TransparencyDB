@@ -1,11 +1,7 @@
 package com.BEISTransparencyDB.pagefactory.UIAdminPortal;
 
-import net.serenitybdd.screenplay.actions.Enter;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;

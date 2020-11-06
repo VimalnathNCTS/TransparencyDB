@@ -4,13 +4,13 @@ import com.BEISTransparencyDB.pagefactory.UIAdminPortal.Userinfo;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
-import net.serenitybdd.core.pages.PageObject;
+
 
 public class Login {
     Userinfo userinfo;
 
     @Given("^I enter a valid emailID \"([^\"]*)\" and password \"([^\"]*)\"$")
-    public void i_enter_a_valid_emailID(String emailID, String password) throws InterruptedException {
+    public void i_enter_a_valid_emailID(String emailID, String password) {
         userinfo.open();
         userinfo.setEmailID (emailID);
         userinfo.setPassword(password);

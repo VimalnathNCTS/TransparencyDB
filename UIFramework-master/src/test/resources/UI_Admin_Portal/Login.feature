@@ -9,4 +9,3 @@ Feature: User provides details for a successful login
      Examples:
         | emailID | password |
         | Vimalnath.N@cognizant.com | ABCD12345£$% |
-
