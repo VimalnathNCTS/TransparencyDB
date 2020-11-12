@@ -1,4 +1,4 @@
-package com.BEISTransparencyDB.pagefactory.UIAdminPortal;
+package UK.GOV.BEIS.SCTDB.Framework.pagefactory.ui.adminportal;
 
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.pages.PageObject;
@@ -8,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import static org.junit.Assert.assertEquals;
 
 @DefaultUrl("http://transparency-admin.azurewebsites.net/")
-public class Userinfo extends PageObject {
+public class LoginPage extends PageObject {
 
     @FindBy(xpath = "//input[@id='email_address']")
     @CacheLookup
@@ -39,6 +39,6 @@ public class Userinfo extends PageObject {
     }
 
     public void verifyLogin() {
-    assertEquals("Login failed", "My subsidy awards", ValidateTitle.getText());
+    assertEquals("Login_Steps failed", "My subsidy awards", ValidateTitle.getText());
     }
 }

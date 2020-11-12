@@ -1,4 +1,4 @@
-package com.browserstack;
+package UK.GOV.BEIS.SCTDB.Framework.utilities;
 
 import java.net.URL;
 import java.util.Iterator;

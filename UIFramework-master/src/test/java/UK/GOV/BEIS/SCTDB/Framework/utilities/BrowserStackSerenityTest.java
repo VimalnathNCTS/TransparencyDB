@@ -1,4 +1,4 @@
-package com.browserstack;
+package UK.GOV.BEIS.SCTDB.Framework.utilities;
 
 import com.browserstack.local.Local;
 

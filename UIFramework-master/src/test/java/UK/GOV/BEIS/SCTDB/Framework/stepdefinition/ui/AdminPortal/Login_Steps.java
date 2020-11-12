@@ -1,21 +1,21 @@
-package com.BEISTransparencyDB.ui.stepdefinition.AdminPortal;
+package UK.GOV.BEIS.SCTDB.Framework.stepdefinition.ui.AdminPortal;
 
-import com.BEISTransparencyDB.pagefactory.UIAdminPortal.Userinfo;
-import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
+import UK.GOV.BEIS.SCTDB.Framework.pagefactory.ui.adminportal.LoginPage;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
+public class Login_Steps {
 
-public class Login {
-    Userinfo userinfo;
+    LoginPage userinfo;
 
-    @Given("^I enter a valid emailID \"([^\"]*)\" and password \"([^\"]*)\"$")
+    @Given("I enter a valid emailID {string} and password {string}")
     public void i_enter_a_valid_emailID(String emailID, String password) {
         userinfo.open();
         userinfo.setEmailID (emailID);
         userinfo.setPassword(password);
     }
-    @And("^I click on SignIn")
+    @When("^I click on SignIn")
     public void i_click_on_SignIn () {
         userinfo.signIn();
     }
